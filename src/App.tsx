@@ -32,17 +32,6 @@ function Copyright() {
 
 const theme = createTheme();
 
-// interface Projects {
-//   id: string;
-//   name: string;
-//   githubLink: string;
-//   siteLink: string;
-//   image: string;
-//   description: string;
-//   dateCreated: string;
-//   tags: string[];
-// }
-
 export default function App(): JSX.Element {
   return (
     <ThemeProvider theme={theme}>
@@ -115,7 +104,7 @@ export default function App(): JSX.Element {
                       display: "flex",
                     }}
                   >
-                    <CardContent sx={{ flexGrow: 1, flex: "1 0 auto" }}>
+                    <CardContent sx={{ flex: "1 0 0" }}>
                       <Typography gutterBottom variant="h5" component="h2">
                         {project.name}
                       </Typography>
@@ -132,6 +121,7 @@ export default function App(): JSX.Element {
                       component="img"
                       sx={{
                         width: 180,
+                        height: 120,
                         border: 1,
                         borderColor: "text.secondary",
                         borderRadius: 2,
