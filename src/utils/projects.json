@@ -74,7 +74,7 @@
     "name": "Todo (Fullstack)",
     "githubLink": "https://github.com/ed-halliwell/todos-front-end",
     "siteLink": "https://priceless-rosalind-023fd1.netlify.app/",
-    "image": "/imgs/chat.png",
+    "image": "/imgs/todos.png",
     "description": "FE & BE app using Express and React",
     "dateCreated": "18 November 2021",
     "tags": ["Typescript"]
