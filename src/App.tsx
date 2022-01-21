@@ -77,10 +77,7 @@ export default function App(): JSX.Element {
               spacing={2}
               justifyContent="center"
             >
-              <Button
-                variant="contained"
-                href="https://github.com/ed-halliwell"
-              >
+              <Button variant="outlined" href="https://github.com/ed-halliwell">
                 GitHub
               </Button>
               <Button
@@ -88,6 +85,9 @@ export default function App(): JSX.Element {
                 href="https://www.linkedin.com/in/edhalliwell/"
               >
                 LinkedIn
+              </Button>
+              <Button variant="outlined" href="https://medium.com/@edhalliwell">
+                Medium
               </Button>
             </Stack>
           </Container>
